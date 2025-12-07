@@ -1,0 +1,31 @@
+body { font-family: Arial; margin: 0; padding: 0; }
+header { padding: 20px; background: #2e7d32; color: white; text-align: center; }
+nav { background: #444; padding: 10px; text-align: center; }
+nav a { color: white; margin: 15px; text-decoration: none; font-weight: bold; }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.buy, .whatsapp-btn {
+    background: #25D366;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+}
